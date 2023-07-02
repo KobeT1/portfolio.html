@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Beyond1Bar - Diving Photography</title>
+  <style>
+    /* Reset some default styles */
+    html, body, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #fff;
+      background-color: #222;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header styles */
+    header {
+      background: #333;
+      color: #fff;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* Hero section styles */
+    #hero {
+      background: url("hero-image.jpg") no-repeat center;
+      background-size: cover;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    #hero h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #090909;
+      color: #fff;
+      text-decoration: none;
+      transition: background 0.3s ease;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #0a0a0a;
+    }
+
+    /* About section styles */
+    #about {
+      background-color: #333;
+      padding: 40px 0;
+    }
+
+    #about h2 {
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+    #about p {
+      color: #ccc;
+    }
+
+    /* Portfolio section styles */
+    #portfolio {
+      padding: 40px 0;
+    }
+
+    #portfolio h2 {
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .gallery img:hover {
+      transform: translateY(-10px);
+    }
+
+    /* Contact section styles */
+    #contact {
+      background-color: #333;
+      padding: 40px 0;
+    }
+
+    #contact h2 {
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+
+    #contact-form input,
+    #contact-form textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: #444;
+      color: #fff;
+    }
+
+    #contact-form button {
+      background: #000000;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    #contact-form button:hover {
+      background: #070707;
+    }
+
+    /* Footer styles */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <h1>Beyond1Bar</h1>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section id="hero">
+    <div class="container">
+      <h2>Capturing the Beauty Beneath the Surface</h2>
+      <a href="#portfolio" class="btn">View Portfolio</a>
+    </div>
+  </section>
+  <section id="about">
+    <div class="container">
+      <h2>About Beyond1Bar</h2>
+      <p>Welcome to Beyond1Bar, the captivating world of underwater photography!
+        My name is Anto Steele, and I am a passionate scuba diving instructor and photographer based in the Philippines.
+        With my camera in hand, I explore the mesmerizing depths of the ocean to capture the awe-inspiring beauty that lies beneath the surface.
+        Through my lens, I aim to share the enchanting marine life and breathtaking seascapes that fill our oceans.
+        As a diving enthusiast, I have witnessed firsthand the wonders of the underwater world, and I am dedicated to preserving its magic through my photography.
+        Join me on this visual journey as I invite you to dive into the extraordinary and discover the wonders that lie Beyond1Bar.</p>
+    </div>
+  </section>
+  <section id="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="gallery">
+        <div class="image-container">
+          <img src="Images/eel.jpeg">
+        </div>
+        <div class="image-container">
+          <img src="Images/cuttlefish.jpeg">
+        </div>
+        <div class="image-container">
+          <img src="Images/orange_nuddy.jpeg">
+        </div>
+        <div class="image-container">
+          <img src="Images/pink_nuddy.jpeg">
+        </div>
+        <div class="image-container">
+          <img src="Images/shawn.jpeg">
+        </div>
+        <div class="image-container">
+          <img src="Images/xray.jpeg">
+        </div>
+        <div class="image-container">
+          <img src="Images/dunno.jpeg">
+        </div>
+        <div class="image-container">
+          <img src="Images/krill.jpeg">
+        </div>
+        <div class="image-container">
+          <img src="Images/nuddy1.jpeg">
+        </div>
+        <div class="image-container">
+          <img src="Images/orangething.jpeg">
+        </div>
+        <div class="image-container">
+          <img src="Images/turtle.jpeg">
+        </div>
+        <div class="image-container">
+          <img src="Images/seahorse.jpeg">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Beyond1Bar</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Beyond1Bar. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
